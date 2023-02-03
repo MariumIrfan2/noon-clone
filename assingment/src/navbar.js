@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Input from './input'
 
-const pages = ['Products', 'Home', 'Sports'];
+const pages = ['Products', 'Home', 'Sports', <Input placeholder="search Products" />];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -160,3 +161,4 @@ function ResponsiveAppBar() {
   );
 }
 export default ResponsiveAppBar;
+
